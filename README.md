@@ -1,4 +1,6 @@
-# Matapp
+# ToDo Application
+
+ToDo Application is created on Angular 9 framework with Angular Material UI component library and Firebase database.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
