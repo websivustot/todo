@@ -1,0 +1,32 @@
+<div>
+    <ul *ngIf="tasks.length; else noTasks">
+      <li rowHeight="3:1" *ngFor="let todo of tasks; let i = index">
+        <div class="col">{{i+1}}</div>
+        <div class="col title">{{todo.title}}, <span>{{todo.date.seconds*1000 | date: 'dd.MM.yyyy h:mm:ss a'}}</span></div> 
+        <div class="col"> <mat-checkbox [(checked)]="todo.completed" (click)="onChange(todo)"></mat-checkbox></div>
+        <div class="col"> 
+            <button mat-icon-button aria-label="Remove" (click)="delete(todo.id)">
+              <mat-icon>delete_forever</mat-icon>
+            </button>
+        </div>    
+      </li>
+    </ul>
+    <mat-divider></mat-divider>
+    <ng-template #noTasks>
+        <p class="text-center">No tasks yet...</p>
+    </ng-template>
+    <div class="form">
+        <form (ngSubmit)="submit()" [formGroup]="userForm">
+            <mat-form-field class="input-field">
+                <mat-label>Input your task</mat-label>
+                <input matInput placeholder="Input your task" type="text" formControlName="title">    
+            </mat-form-field>
+            <button mat-button
+                    appearance="outline"
+                    type="submit"
+                    [disabled]="userForm.invalid"
+            >Add task</button>
+        </form>
+    </div>
+    
+  </div>

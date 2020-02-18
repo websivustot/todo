@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        .col {
+            padding: 10px;
+            margin: 10px;
+            align-self: center;
+        }
+        .title {
+            flex-grow: 2;
+            span {
+                color:#a01f4a;
+            }
+        }
+
+        &:hover {
+            background: rgb(248, 248, 248);
+        }
+    }
+}
+
+.form {
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    form {
+        display: flex;
+        .input-field {
+            flex-grow: 2;
+        }
+    }
+    &:hover {
+        background: rgb(248, 248, 248);
+    }
+}
