@@ -8,29 +8,29 @@ The Demo is on the Firebase hosting https://crud-2a840.firebaseapp.com.
 
 ### 1. Create a lovable app with Angular.
 Ideas about what it may be:
-Todo app
-Portolio
-Cookbook
+* Todo app
+* Portolio
+* Cookbook
 ### 2. Requirements:
 Make it work as a progressive Web App (PWA)
 Use firebase. Maybe to host your app or even use Auth and/or Firestore to create something!
 ### 3. Resources:
-Typescript https://www.youtube.com/watch?v=ahCwqrYpIuM
-Angular usage docs at: https://angular.io/docs
-Angular cli usage docs at: https://angular.io/cli
-Material design https://material.angular.io/
-What is a PWA https://www.youtube.com/watch?v=m-sCdS0sQO8
-Service workers in Angular https://angular.io/guide/service-worker-intro
-Good stuff on Angularhttps://www.youtube.com/playlist?list=PL0vfts4VzfNiX5kG1Q8pg2JQ_SB0_ADM1
-More stuff on Angularhttps://www.youtube.com/playlist?list=PL0vfts4VzfNjsTV_6i9a9iczMnthWqHzM
-Additionally a whole course on Angular: https://www.udemy.com/the-complete-guide-to-angular-2/
-Firebase stuff: 
-https://firebase.google.com/
-https://github.com/angular/angularfire2
-https://www.youtube.com/watch?v=2ciHixbc4HE&list=PL0vfts4VzfNj28Xp5kmNAdIqABNGhTzKF
+* Typescript https://www.youtube.com/watch?v=ahCwqrYpIuM
+* Angular usage docs at: https://angular.io/docs
+* Angular cli usage docs at: https://angular.io/cli
+* Material design https://material.angular.io/
+* What is a PWA https://www.youtube.com/watch?v=m-sCdS0sQO8
+* Service workers in Angular https://angular.io/guide/service-worker-intro
+* Good stuff on Angularhttps://www.youtube.com/playlist?list=PL0vfts4VzfNiX5kG1Q8pg2JQ_SB0_ADM1
+* More stuff on Angularhttps://www.youtube.com/playlist?list=PL0vfts4VzfNjsTV_6i9a9iczMnthWqHzM
+* Additionally a whole course on Angular: https://www.udemy.com/the-complete-guide-to-angular-2/
+* Firebase stuff: 
+  * https://firebase.google.com/
+  * https://github.com/angular/angularfire2
+  * https://www.youtube.com/watch?v=2ciHixbc4HE&list=PL0vfts4VzfNj28Xp5kmNAdIqABNGhTzKF
 ### 4. Remember these goals
-Show your learning skills.
-Show your creative skills.
+* Show your learning skills.
+* Show your creative skills.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
